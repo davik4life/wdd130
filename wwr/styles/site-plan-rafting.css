@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
 	font-family: var(--heading-font);
-	color: var(--primary-color);
+	color: "var(--primary-color)";
 	/* color: red; */
 }
 
