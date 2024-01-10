@@ -6,13 +6,13 @@
 	--accent1-color: "#FFD046";
 	--accent2-color: "#362417";
 
-	--heading-font: "Hedvig Letters Sans" serif;
-	--paragraph-font: "Hedvig Letters Sans" serif;
-
 	--nav-background-color: var(--secondary-color);
 	--nav-link-color: var(--primary-color);
 	--nav-hover-link-color: var(--accent1-color);
 	--nav-hover-background-color: var(--accent2-color);
+
+	--heading-font: "Hedvig Letters Sans", "Titillium Web", serif;
+	--paragraph-font: "Hedvig Letters Sans", "Titillium Web", serif;
 }
 
 body {
