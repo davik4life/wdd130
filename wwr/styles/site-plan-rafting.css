@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hedvig+Letters+Sans&family=Titillium+Web&display=swap");
+
+:root {
+	--primary-color: "#28587B";
+	--secondary-color: "#EEEEFF";
+	--accent1-color: "#FFD046";
+	--accent2-color: "#362417";
+
+	--heading-font: "Hedvig Letters Sans", serif;
+	--paragraph-font: "Hedvig Letters Sans", serif;
+
+	--nav-background-color: var(--secondary-color);
+	--nav-link-color: var(--primary-color);
+	--nav-hover-link-color: var(--accent1-color);
+	--nav-hover-background-color: var(--accent2-color);
+}
+
+body {
+	font-family: var(--paragraph-font);
+	max-width: 960px;
+	padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--heading-font);
+	color: var(--primary-color);
+}
+
+header {
+	padding: 20px;
+	background-color: var(--accent1-color);
+}
+
+p {
+	padding: 25px;
+}
+
+nav {
+	background-color: var(--primary-color);
+	font-size: 1.2rem;
+	display: flex;
+}
+
+nav a {
+	display: block;
+	color: var(--primary-color);
+	text-decoration: none;
+	padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+	color: var(--primary-color);
+}
+
+nav a:hover {
+	color: var(--accent1-color);
+	background-color: var(--accent2-color);
+}
