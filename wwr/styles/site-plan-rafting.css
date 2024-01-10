@@ -6,8 +6,8 @@
 	--accent1-color: "#FFD046";
 	--accent2-color: "#362417";
 
-	--heading-font: "Hedvig Letters Sans", serif;
-	--paragraph-font: "Hedvig Letters Sans", serif;
+	--heading-font: "Hedvig Letters Sans" serif;
+	--paragraph-font: "Hedvig Letters Sans" serif;
 
 	--nav-background-color: var(--secondary-color);
 	--nav-link-color: var(--primary-color);
@@ -41,24 +41,24 @@ p {
 }
 
 nav {
-	background-color: var(--primary-color);
+	background-color: var(--nav-background-color);
 	font-size: 1.2rem;
 	display: flex;
 }
 
 nav a {
 	display: block;
-	color: var(--primary-color);
+	color: var(--nav-hover-link-color);
 	text-decoration: none;
 	padding: 1rem;
 }
 
 nav a:link,
 nav a:visited {
-	color: var(--primary-color);
+	color: var(--nav-hover-link-color);
 }
 
 nav a:hover {
-	color: var(--accent1-color);
-	background-color: var(--accent2-color);
+	color: var(--nav-hover-link-color);
+	background-color: var(--nav-hover-background-color);
 }
