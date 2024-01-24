@@ -59,20 +59,39 @@ nav{
 	flex-wrap: wrap;
 	/* border: 0.1px solid black; */
 }
+.history, .adventure{
+	text-align: center;
+	padding: 10px;
+}
 
 .historyData{
 	display: flex;
-	
+}
+
+.adventureData {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* width: 20px; */
+	/* height: auto; */
+}
+
+.adventureData figure img{
+	width: 100px;
 }
 
 body {
 	font-family: var(--paragraph-font);
-	width: 640px;
+	/* width: 640px; */
+	width: 1000px;
 }
 
 .hero{
-	background-image: url("/wwr/images/rafting12_1024.jpeg");
 	display: grid;
+	background-image: url("/wwr/images/rafting12_1024.jpeg");
 	align-items: center;
 	justify-items: center;
 	background-repeat: no-repeat;
@@ -87,8 +106,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 120px auto;
-
+	margin: 100px auto;
 }
 
 article{
@@ -102,6 +120,35 @@ article img{
 	height: auto;
 }
 
+/* footer{
+	display: flex;
+	justify-content: space-around;
+	justify-items: center;
+	align-items: center;
+	background-color: rgba(204, 60, 204, 0.767);
+} */
+
+footer{
+	background-color: rgba(204, 60, 204, 0.767);
+	display: flex;
+	/* justify-content:space-around; */
+	align-items: center;
+
+}
+footer nav{
+	display: flex;
+	/* flex: 1; */
+	justify-content: flex-end;
+}
+
+footer p{
+	display: flex;
+	flex: 2;
+	justify-content: space-around;
+	align-items: center;
+	/* justify-items: center; */
+	/* align-items: center; */
+}
 
 /* .hero {
 	position: relative;
