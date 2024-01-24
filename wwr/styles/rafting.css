@@ -31,13 +31,6 @@ header img{
 }
 a {
 	text-decoration: none;
-	/* color: #a4a3a3;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding: 1rem; */
 }
 
 nav a{
@@ -75,8 +68,6 @@ nav{
 	justify-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	/* width: 20px; */
-	/* height: auto; */
 }
 
 .adventureData figure img{
@@ -91,7 +82,7 @@ body {
 
 .hero{
 	display: grid;
-	background-image: url("/wwr/images/rafting12_1024.jpeg");
+	background-image: url("https://davik4life.github.io/wdd130/wwr/images/rafting12_1024.jpeg");
 	align-items: center;
 	justify-items: center;
 	background-repeat: no-repeat;
@@ -118,15 +109,7 @@ article{
 article img{
 	width: 200px;
 	height: auto;
-}
-
-/* footer{
-	display: flex;
-	justify-content: space-around;
-	justify-items: center;
-	align-items: center;
-	background-color: rgba(204, 60, 204, 0.767);
-} */
+} 
 
 footer{
 	background-color: rgba(204, 60, 204, 0.767);
@@ -146,8 +129,6 @@ footer p{
 	flex: 2;
 	justify-content: space-around;
 	align-items: center;
-	/* justify-items: center; */
-	/* align-items: center; */
 }
 
 /* .hero {
