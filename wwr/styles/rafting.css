@@ -85,6 +85,7 @@ body {
 	font-family: var(--paragraph-font);
 	/* width: 640px; */
 	width: 1000px;
+	margin: 0 auto;
 }
 
 .hero{
