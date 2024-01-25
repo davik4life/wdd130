@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: aqua;
+    font-size: larger;
+    margin: 1rem;
+    /* text-align: left; */
+}
+
+form{
+    display: grid;
+    width: 650px;
+    background-color: bisque;
+    /* margin: 2rem; */
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid greenyellow;
+    border-radius: 25px;
+}
+body {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
