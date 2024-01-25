@@ -29,6 +29,9 @@ form{
     width: 25rem;
 }
 
+h1{
+padding: 0.5rem;}
+
 span{
     color: #0505f6;
     font-weight: 600;
