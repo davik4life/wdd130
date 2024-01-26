@@ -39,38 +39,48 @@
 				<div class="contactForm">
 					<h2>Send us a message.</h2>
 					<sub>Send us a message and we'll respond within 24 hours.</sub>
-					<form action="">
+					<form>
 						<label for="fname">First Name: </label><br>
 						<input type="text" id="fname" name="first_name">
 						<label for="email">Email: </label>
 						<input type="email" id="email" name="email">
-						<label for="purpose">Message Purpose: </label>
-						<select name="purpose" id="purpose">
+						<label for="general">Message Purpose: </label>
+						<div class="general">
+							<input type="radio" id="general" name="general" value="inquiry">
+							<label for="general">General Inquiry</label>
+						</div>
+						<div class="general">
+							<input type="radio" id="reservation" name="general" value="reservation">
+							<label for="reservation">Reservation Question</label>
+						</div>
+						<div class="general">
+							<input type="radio" id="suggestion" name="general" value="suggestion">
+							<label for="suggestion">Website Suggestion</label>
+						</div>
+						<!-- <select name="purpose" id="purpose">
 							<option value="general">General Inquiry</option>
 							<option value="reservation">Reservation Question</option>
 							<option value="suggestion">Website Suggestion</option>
-						</select>
-						<label for="purpose">Message: </label>
-						<textarea name="purpose" id="purpose" cols="40" rows="4"></textarea>
-						<label for="newsletter">
-							Please subscribe me to the monthly newsletter: <input type="checkbox">
-						</label>
-						<button type="submit">Submit</button>
+						</select> -->
+						<label for="message">Message: </label>
+						<textarea name="messagemessage" id="message" cols="40" rows="4"></textarea>
+						<label for="newsletter">Please subscribe me to the monthly newsletter: <input type="checkbox" id="newsletter" name="newsletter"></label>
+						<button type="submit">Send Message</button>
 					</form>
 				</div>
 			</div>
 			<h2>Employee Avatar</h2>
 			<div class="team">
 				<figure>
-					<img src="/wdd130/wwr/images/Newworker1.webp" alt="Worker 1">
+					<img src="https://davik4life.github.io/wdd130/wwr/images/Newworker1.webp" alt="Worker 1">
 					<figcaption>Worker Nathanael</figcaption>
 				</figure>
 				<figure>
-					<img src="/wdd130/wwr/images/Newworker2.webp" alt="Worker 2">
+					<img src="https://davik4life.github.io/wdd130/wwr/images/Newworker2.webp" alt="Worker 2">
 					<figcaption>Worker Gabriella</figcaption>
 				</figure>
 				<figure>
-					<img src="/wdd130/wwr/images/Newworker3.webp" alt="Worker 3">
+					<img src="https://davik4life.github.io/wdd130/wwr/images/Newworker3.webp" alt="Worker 3">
 					<figcaption>Worker Anderson</figcaption>
 				</figure>
 			</div>
