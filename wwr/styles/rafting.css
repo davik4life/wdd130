@@ -8,7 +8,6 @@
 	--heading-font: "Abhaya Libre", serif;
 	--paragraph-font: "Abhaya Libre", serif;
 
-	/* --nav-background-color: #52ee32; */
 	--nav-background-color: #51ee325d;
 	--nav-link-color: #992806;
 	--nav-hover-link-color: #ddaabb;
@@ -127,53 +126,7 @@ footer p{
 	align-items: center;
 }
 
-/* .hero {
-	position: relative;
-} */
 
-/* .hero img {
-	position: relative;
-	top: 10px;
-	left: 10px;
-	display: block;
-	width: 100%;
-	height: auto;
-} */
-
-/* .hero h1 {
-	position: absolute;
-	text-transform: uppercase;
-	color: #2010b0af;
-	top: 50px;
-	left: 120px;
-	font-size: 40px;
-	font-weight: bolder;
-	padding: 5px;
-	background-color: rgba(141, 211, 237, 0.626);
-	border-radius: 10px;
-} */
-/* .hero article img {
-	position: absolute;
-	top: 150px;
-	left: 430px;
-	width: 200px;
-	height: auto;
-	float: right;
-	box-sizing: border-box;
-	margin: 0.5rem;
-	padding: 0.5rem;
-	display: block;
-} */
-
-
-/* .hero article p {
-	position: absolute;
-	top: 150px;
-	left: 35px;
-	right: 220px;
-	color: rgb(255, 255, 255);
-	background: rgba(120, 22, 22, 0.601);
-} */
 
 h2 {
 	text-transform: uppercase;
@@ -269,7 +222,6 @@ button:hover{
 
 input, textarea, checkbox, select{
 	display: flex;
-	/* flex-direction: row; */
 	margin: 0.5rem;
 	padding: 0.5em;
 	border-radius: 20px;
@@ -277,7 +229,6 @@ input, textarea, checkbox, select{
 
 .general{
 	display: flex;
-	/* justify-items: flex-start; */
 	line-height: 35px;
 	flex-direction: row;
 }
