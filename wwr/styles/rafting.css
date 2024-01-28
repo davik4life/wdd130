@@ -181,7 +181,8 @@ form{
 	page-break-inside: avoid;
 	break-inside: avoid-column;
 	justify-content: space-between;
-	
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 .team>figure>img{
@@ -189,6 +190,8 @@ form{
 	align-items: center;
 	width: 200px;
 	margin: 20px auto;
+	/* padding-left: 50px;
+	padding-right: -50px; */
 }
 
 figure{
