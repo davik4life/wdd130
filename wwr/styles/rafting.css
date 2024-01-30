@@ -415,7 +415,7 @@ tfoot tr{
 	align-items: stretch;
 }
 
-.actionArea button{
+.contactActionButton{
 	display: flex;
 	background-color: orangered;
 	font-family: var(--paragraph-font);
@@ -424,7 +424,20 @@ tfoot tr{
 	margin-left: 600px;
 	border: none;
 	border-radius: 15px;
+	color: #fff;
+	text-decoration: none;
 } 
+
+.contactActionButton:hover{
+	background-color: #FFD046;
+	a{
+		color: #362417;
+	}
+}
+.contactActionButton a{
+	text-decoration: none;
+	color: white;
+}
 
 .actionArea p{
 	color: #362417;
