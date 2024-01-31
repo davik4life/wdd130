@@ -12,6 +12,11 @@
 	--nav-link-color: #992806;
 	--nav-hover-link-color: #ddaabb;
 	--nav-hover-background-color: #bb4915;
+
+	/* All Action Buttons and Sections */
+	--action-button-color: #ff4500;
+	--action-hover-button-color: #FFD046;
+	--action-button-text-hover: #362417;
 }
 
 header{
@@ -127,8 +132,6 @@ footer p{
 	justify-content: space-around;
 	align-items: center;
 }
-
-
 
 h2 {
 	text-transform: uppercase;
@@ -405,7 +408,7 @@ tfoot tr{
 
 .contactActionButton{
 	display: flex;
-	background-color: orangered;
+	background-color: var(--action-button-color);
 	font-family: var(--paragraph-font);
 	width: 13rem;
 	flex-shrink: 0;
@@ -425,14 +428,14 @@ tfoot tr{
 	font-size: 30px;
 }
 .contactActionButton:hover{
-	background-color: #FFD046;
-	color: #362417;
+	background-color: var(--action-hover-button-color);
+	color: var(--action-button-text-hover);
 }
 
 
 
 .actionArea p{
-	color: #362417;
+	color: var(--action-button-text-hover);
 	font-size: 1.5rem;
 	font-style: normal;
 	font-weight: 700;
@@ -466,8 +469,13 @@ tfoot tr{
 	border: none;
 	margin-left: 40rem;
 	width: 15rem;
-	background-color: #28587B;
+	background-color: var(--action-button-color);
 	border-radius: 0;
+}
+
+.call_to_action button:hover{
+	background-color: var(--action-hover-button-color);
+	color: var(--action-button-text-hover);
 }
 
 .belowHeroSection{
@@ -491,18 +499,6 @@ tfoot tr{
 	text-align: center;
 }
 
-/* .sideCard{
-	position: relative;
-	align-items: left;
-	text-align: left;
-	width: 300px;
-	top: 900px;
-	right: 5px;
-	margin: 0 auto;
-	padding: 20px 80px;
-	background-color: #3e4e5ad0;
-} */
-
 .sideCard{
 	position: absolute;
 	align-items: left;
@@ -513,7 +509,7 @@ tfoot tr{
 	margin: 0 auto;
 	padding: 20px 70px;
 	background-color: #3e4e5ad0;
-	z-index: 100;
+	color: #fff;
 }
 
 
@@ -526,4 +522,10 @@ tfoot tr{
 	align-content:flex-start;
 	border-radius: 0;
 	float: left;
+	background-color: var(--action-button-color);
+}
+
+.sideCard button:hover{
+	background-color: var(--action-hover-button-color);
+	color: var(--action-button-text-hover);
 }
