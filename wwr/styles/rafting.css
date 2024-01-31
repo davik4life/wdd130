@@ -363,6 +363,8 @@ table, td, tr{
 	padding: 1rem;
 	background-color: #92817A;
 	color: #fff;
+	text-align: center;
+	width: 940px;
 }
 thead tr{
 	text-transform: uppercase;
@@ -377,8 +379,8 @@ thead tr{
 }
 
 tfoot tr{
-	display: flex;
-	justify-content: center;
+	/* padding: 20rem; */
+	/* margin: 0 auto; */
 	font-size: 1.5rem;
 	line-height: 1rem;
 }
