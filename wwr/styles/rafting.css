@@ -32,6 +32,7 @@ header img{
 	width: 100px;
 	height: 100px;
 	padding: 2rem;
+	border-radius: 30%;
 }
 a {
 	text-decoration: none;
@@ -63,7 +64,10 @@ nav{
 
 .historyData{
 	display: flex;
+	justify-content: space-between;
+	text-align: left;
 }
+
 
 .adventureData {
 	display: flex;
@@ -169,6 +173,16 @@ figcaption {
     border-radius: 6px 0px 0px 6px;
 }
 
+.contactForm input{
+	border: none;
+	background-color: #cfcfd7;
+}
+
+.contactForm button{
+	font-family: var(--paragraph-font);
+	font-size: 2rem;
+	border: none;
+}
 
 .entireForm{
 	display: flex;
@@ -447,7 +461,7 @@ tfoot tr{
 	width: auto;
 	height: 50vh;
 	display: grid;
-	background-image: url("https://davik4life.github.io/wdd130/wwr/images/rafting12_1024.jpeg");
+	background-image: url("https://davik4life.github.io/wdd130/wwr/images/rafting13_1024.jpeg");
 	align-items: center;
 	justify-items: center;
 	background-repeat: no-repeat;
@@ -504,11 +518,11 @@ tfoot tr{
 .sideCard{
 	position: absolute;
 	text-align: left;
-	width: 300px;
+	width: 355px;
 	top: 50px;
 	right: 5px;
 	margin: 0 auto;
-	padding: 20px 70px;
+	padding: 20px 40px;
 	background-color: #3e4e5ad0;
 	color: #fff;
 }
