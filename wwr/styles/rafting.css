@@ -130,6 +130,11 @@ footer nav{
 	justify-content: flex-end;
 }
 
+footer a{
+	padding: 1.5px;
+	align-items: center;
+
+}
 footer p{
 	display: flex;
 	flex: 2;
@@ -497,7 +502,7 @@ tfoot tr{
 /* Used CSS GRID as instructed for the image section of the Homepage */
 .belowHeroSection{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 2fr 1fr;
 	justify-content: center;
 	margin: 0 auto;
 	padding: 2rem;
